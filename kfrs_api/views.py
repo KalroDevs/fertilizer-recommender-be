@@ -8,7 +8,7 @@ import os
 # Load the machine learning model
 # with open('C:/Users/SPECTRE/Documents/KALRO/Fertilizer/frcode\kfrs/kfrs_backend/kfrs_api/model.pkl', 'rb') as model_file:
 fileDir = os.path.dirname(os.path.realpath('__file__'))
-model = os.path.join(fileDir, 'kfrs_api\\model.pkl')
+model = os.path.join(fileDir, 'kfrs_api/model.pkl')
 with open(model, 'rb') as model_file:
     loaded_model = pickle.load(model_file)
 

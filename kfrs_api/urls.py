@@ -8,6 +8,6 @@ urlpatterns = [
 	# path('form/', views.kfrs_form, name='kfrs_form'),
     # path('api/', include(router.urls)),
     # path('status/', views.approvereject),
-    path('fertilizer/', views.fertilizer_recommendation, name='fertilizer_recommendation'),
+    path('', views.fertilizer_recommendation, name='fertilizer_recommendation'),
  
 ] 
